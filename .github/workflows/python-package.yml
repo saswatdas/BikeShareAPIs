@@ -35,4 +35,5 @@ jobs:
       run: |
         test
     - name: black
+      run: |
         format
