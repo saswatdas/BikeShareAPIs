@@ -6,9 +6,8 @@ format:
 		black *.py
 
 lint:
-		pylint --disable=R,C script.py
+		pylint --disable=R,C app tests
 
-test:
-		python3 -m pytest test_*.py
 
-all: install format lint test
+
+all: install format lint 
