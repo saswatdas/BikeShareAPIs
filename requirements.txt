@@ -15,6 +15,9 @@ joblib>=1.0.1,<2.0.0
 #mypy==0.812
 #isort==5.8.0
 
+black
+pylint
+pytest
 
 # If locally copyied whl file inside tbikeshare_model-api then use given below
 bikeshare_model-0.0.1-py3-none-any.whl
